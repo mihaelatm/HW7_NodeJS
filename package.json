@@ -2,7 +2,9 @@
   "name": "homework_7",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodempn server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "sequelize": "^6.37.5",
     "sequelize-cli": "^6.6.2"
   }
